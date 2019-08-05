@@ -1,0 +1,178 @@
+@media only screen and (max-width: 1024px) {
+    .mobile-menu span {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 1024px) {
+    .mobile-menu span {
+        display: none;
+    }
+
+    .row {
+        margin: 0 1.5rem;
+    }
+
+    .client-photo {
+        width: 100%;
+        text-align: center;
+        float: none;
+    }
+
+    .client-review {
+        width: 100%;
+        text-align: center;
+        float: none;
+        ;
+    }
+
+    .form {
+        width: 100%;
+        margin: 0;
+
+    }
+
+}
+
+@media only screen and (max-width: 980px) {
+    .sticky .mobile-menu {
+
+        margin-top: 0;
+    }
+
+    .main-nav {
+        display: none;
+
+    }
+
+    .mobile-menu span {
+        display: block;
+    }
+
+    html {
+        font-size: 70%;
+
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    .span_1_of_4 {
+        width: 49.2%;
+    }
+
+    .services .col:nth-child(3),
+    .skills .col:nth-child(3),
+    .teams .col:nth-child(3) {
+        margin-left: 0;
+    }
+
+    .navbar-brand .logo {
+        height: 5rem;
+
+
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    html {
+        font-size: 70%;
+
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2.2rem;
+    }
+
+    h3 {
+        font-size: 1.8rem;
+    }
+
+    .span_1_of_4 {
+        width: 49.2%;
+    }
+
+    .service {
+        height: 25rem;
+    }
+
+    .team {
+        height: 55rem;
+    }
+
+    .clients-say {
+        height: 32rem;
+    }
+
+    .footer-section ul li {
+        margin: 3rem 1rem;
+
+    }
+
+    .portfolio-filter button {
+        margin-top: 2rem;
+    }
+
+    .form input[type="submit"] {
+        border: 0;
+        border-bottom: .3rem solid #299EC5;
+        background: #30BAE7;
+        padding: 1rem 4rem;
+        cursor: pointer;
+
+
+    }
+
+}
+
+@media only screen and (max-width: 576px) {
+    html {
+        font-size: 62.5%;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2.2rem;
+    }
+
+    h3 {
+        font-size: 1.8rem;
+    }
+
+    .span_1_of_4 {
+        width: 100%;
+    }
+
+    .lead-description {
+        width: 90%;
+    }
+
+    .footer-section ul li {
+        margin: 3rem .5rem;
+        font-size: 1rem;
+
+    }
+
+
+
+
+}
